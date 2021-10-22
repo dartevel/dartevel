@@ -1,0 +1,25 @@
+disk: "disk_name"
+
+disks:
+  local:
+    - root: ""
+
+  remote:
+    driver: "ftp"
+
+remote_disks:
+  ftp:
+    - driver: "ftp"
+    - url: ""
+    - username: ""
+    - password: ""
+
+  s3:
+    - driver: "s3"
+    - key: ""
+    - secret:
+    - region:
+    - bucket:
+    - url:
+    - endpoint:
+    - use_path_style_endpoint:

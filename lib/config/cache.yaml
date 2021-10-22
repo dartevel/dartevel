@@ -1,0 +1,46 @@
+default: "driver_name"
+
+drivers:
+  null:
+    - driver: "null"
+
+  database:
+    - driver: "database"
+    - table: "caches"
+    - host:
+    - port:
+    - database:
+    - username:
+    - password:
+
+  redis:
+    - driver: "redis"
+    - url: ""
+    - host:
+    - port:
+    - database:
+    - username:
+    - password:
+    - charset: "utf8mb4"
+    - collation: "utf8mb4_unicode_ci"
+    - prefix: ""
+    - prefix_indexes: true
+    - strict: true
+    - engine:
+
+  file:
+    - driver: "file"
+    - path: ""
+    - encrypted: false
+
+  memory:
+    - driver: "memory"
+
+  memcache:
+    - driver: "memcache"
+    - persistent_id: ""
+    - host:
+    - port:
+    - database:
+    - username:
+    - password:

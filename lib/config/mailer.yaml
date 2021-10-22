@@ -1,0 +1,24 @@
+driver: "driver_name"
+
+drivers:
+  null:
+    - driver: "null"
+  
+  smtp: 
+    - driver: "smtp"
+    - host: ""
+    - port: ""
+    - encryption: "tls"
+    - username: ""
+    - password: ""
+
+  sendmail:
+    - driver: "sendmail"
+    - path: "/usr/sbin/sendmail -bs"
+
+
+
+emails:
+  from:
+    - name: "from"
+    - address: "from@email.com"

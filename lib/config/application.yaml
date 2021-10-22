@@ -1,0 +1,11 @@
+name: ""
+version: ""
+
+env: "development"
+
+url: ""
+
+timezone: "UTC"
+
+locale: "en"
+fallback_locale: "en"
