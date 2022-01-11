@@ -1,6 +1,6 @@
 import 'dart:io';
 
-Future<void> main() async {
+Future<void> main(List<String> args) async {
   run();
 }
 
