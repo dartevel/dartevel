@@ -1,6 +1,8 @@
 name: ""
 version: ""
 
+app:
+
 env: "development"
 
 url: ""
@@ -9,6 +11,23 @@ timezone: "UTC"
 
 locale: "en"
 fallback_locale: "en"
+
+server:
+  host: localhost
+  port: 9000
+
+  public_root: web
+  build_root: storage/.build
+  
+  use_ssl: false
+  ssl:
+    # If this port is the same as server.port, or not included at all
+    # then there won't be any HTTP to HTTPS redirects set up.
+    port: 1337
+
+    certificate: storage/certificate.pem
+    private_key: storage/key.pem
+    password: env(SSL_PRIVATE_KEY_PASSWORD)
 
 # Register all your service providers here.
 service_providers:

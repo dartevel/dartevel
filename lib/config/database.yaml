@@ -14,7 +14,7 @@ drivers:
     - port: 3306
     - database: 
     - username:
-    - password:
+    - password: env(APP_DB_PASSWORD)
     - url: ""
     - charset: "utf8mb4"
     - collation: "utf8mb4_unicode_ci"
@@ -26,8 +26,8 @@ drivers:
   pgsql:
     - driver: "pgsql"
     - url: ""
-    - host:
-    - port:
+    - host: localhost
+    - port: 5432
     - database:
     - username:
     - password:
@@ -60,4 +60,7 @@ drivers:
     - prefix: ""
 
 migrations:
-  - prefix: "migrations"
+  path: 'app/database/migrations'
+  # for every created migration: time_prefix_name_postfix
+  prefix: "mg_" 
+  postfix: "mg_" 
