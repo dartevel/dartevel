@@ -3,25 +3,25 @@ default: "driver_name"
 drivers:
   sqlite:
     - driver: "sqlite"
-    - url: ""
-    - database: ""
+    - url: "app/database/database.db"
+    - database: "test_db"
     - prefix: ""
     - foreign_key_constraints: true
 
   mysql:
     - driver: "mysql"
-    - url: ""
-    - host:
-    - port:
-    - database:
+    - host: localhost
+    - port: 3306
+    - database: 
     - username:
     - password:
+    - url: ""
     - charset: "utf8mb4"
     - collation: "utf8mb4_unicode_ci"
     - prefix: ""
     - prefix_indexes: true
     - strict: true
-    - engine:
+    - engine: 
 
   pgsql:
     - driver: "pgsql"

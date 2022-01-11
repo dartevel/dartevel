@@ -1,0 +1,5 @@
+
+views:
+  root: resources/views
+  cache: true
+  cache_directory: storage/caches/views_cache.c

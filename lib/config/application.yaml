@@ -9,3 +9,7 @@ timezone: "UTC"
 
 locale: "en"
 fallback_locale: "en"
+
+# Register all your service providers here.
+service_providers:
+  - http.HttpServiceProvider

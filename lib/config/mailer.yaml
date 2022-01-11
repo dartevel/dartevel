@@ -16,9 +16,7 @@ drivers:
     - driver: "sendmail"
     - path: "/usr/sbin/sendmail -bs"
 
-
-
 emails:
   from:
     - name: "from"
-    - address: "from@email.com"
+    - address: "from@dartevel.com"

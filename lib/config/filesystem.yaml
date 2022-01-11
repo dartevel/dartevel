@@ -14,6 +14,12 @@ remote_disks:
     - username: ""
     - password: ""
 
+  sftp:
+    - driver: "ftp"
+    - url: ""
+    - username: ""
+    - password: ""
+
   s3:
     - driver: "s3"
     - key: ""
