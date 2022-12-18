@@ -1,4 +1,3 @@
-
 views:
   root: resources/views
   cache: true

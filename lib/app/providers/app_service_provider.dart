@@ -1,3 +1,3 @@
-class AppServiceProvider {
+class AppServiceProvider extends ServiceProvider{
   //
 }

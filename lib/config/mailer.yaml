@@ -11,12 +11,19 @@ drivers:
     - encryption: "tls"
     - username: ""
     - password: ""
+    - timeout: null
 
   sendmail:
     - driver: "sendmail"
     - path: "/usr/sbin/sendmail -bs"
+  
+
 
 emails:
   from:
     - name: "from"
     - address: "from@dartevel.com"
+
+
+  views:
+    - path: "resources/mails"

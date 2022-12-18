@@ -2,7 +2,7 @@ disk: "disk_name"
 
 disks:
   local:
-    - root: ""
+    - root: "storage/files"
 
   remote:
     driver: "ftp"
@@ -29,3 +29,7 @@ remote_disks:
     - url:
     - endpoint:
     - use_path_style_endpoint:
+
+
+# links disks.local.root to links
+links: public/files

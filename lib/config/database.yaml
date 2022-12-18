@@ -63,4 +63,4 @@ migrations:
   path: 'app/database/migrations'
   # for every created migration: time_prefix_name_postfix
   prefix: "mg_" 
-  postfix: "mg_" 
+  postfix: "_mg" 

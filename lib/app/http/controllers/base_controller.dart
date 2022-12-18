@@ -1,0 +1,3 @@
+class BaseController extends Controller {
+  
+}

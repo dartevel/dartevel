@@ -1,0 +1,12 @@
+add authentication scaffold
+
+add tailwind, bootstrap, ... scaffold
+
+add authentication scaffold for apis
+
+add oauth2 
+
+add ir sms, banks channels
+
+add socialite
+

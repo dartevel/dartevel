@@ -1,19 +1,12 @@
-name: ""
-version: ""
-
-app:
-
-env: "development"
-
-url: ""
-
+name: "dartevel"
+version: "0.0.0"
+env: "development" # development, production
 timezone: "UTC"
-
 locale: "en"
 fallback_locale: "en"
-
+faker_locale: "en"
 server:
-  host: localhost
+  host: "localhost"
   port: 9000
 
   public_root: web

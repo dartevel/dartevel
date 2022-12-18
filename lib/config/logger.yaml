@@ -1,7 +1,9 @@
 driver: "driver_name"
 
 drivers:
-  null:
+  nullable:
     - driver: "null"
 
   single:
+    - driver: "single"
+    - path: "storage/logs/dartevel.log"
